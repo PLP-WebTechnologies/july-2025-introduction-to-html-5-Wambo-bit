@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mary Wambui's professional portfolio. Aspiring web developer focused on creating semantic, accessible, and SEO-friendly websites using HTML5." />
+  <meta name="keywords" content="Mary Wambui, web developer, HTML5 portfolio, accessible websites, SEO, beginner developer" />
+  <meta name="author" content="Mary Wambui" />
+  <title>Mary Muthima | Future-Focused Web Developer</title>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Mary Wambui</h1>
+    <p>Aspiring Software Engineer | Passionate About Accessible & Clean Web Design</p>
+
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" aria-label="Go to About section">About</a></li>
+        <li><a href="#projects" aria-label="Go to Projects section">Projects</a></li>
+        <li><a href="#contact" aria-label="Go to Contact section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        An enthusiastic detail driven web developer with a growing interest in building clean, accessible, and SEO-conscious websites.
+        I’m dedicated to learning the core principles of modern web design, starting with strong HTML semantics and user-first thinking.
+      </p>
+      <p>
+        I'm passionate about using technology to solve real-world problems and creating digital experiences that are inclusive and meaningful for everyone.
+      </p>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      
+      <article aria-labelledby="project2-title">
+        <h3 id="project2-title">Personal Portfolio</h3>
+        <p>
+          A clean, minimal personal portfolio to showcase who I am and what I'm learning. Created without CSS or JavaScript to focus entirely on structure and accessibility.
+        </p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>If you'd like to connect, collaborate, or just talk about web development—feel free to reach out:</p>
+
+      <form aria-label="Contact form">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required aria-required="true" /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required aria-required="true" /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required aria-required="true"></textarea><br /><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Mary Wambui.</p>
+  </footer>
+
+</body>
+</html>
